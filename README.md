@@ -1,4 +1,4 @@
-# cradle
+# cradle (WIP)
 Remote LED stripe control POC
 
 
@@ -17,4 +17,4 @@ Remote LED stripe control POC
 ... start Python loop as sudo (Perms GPIO) @reboot ...
 
 
-
+Build result of "rpi_ws281x" should reside in root loaction of project as refernced by the python scripts.
