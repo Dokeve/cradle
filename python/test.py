@@ -1,6 +1,6 @@
 import time
 
-from neopixel import *
+from rpi_ws281x.python.neopixel import *
  
 # LED strip configuration:
 LED_COUNT      = 12     # Number of LED pixels.
