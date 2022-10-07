@@ -3,8 +3,8 @@ const path = require('path');
 const express = require('express');
 const serve   = require('express-static');
 
-const pythoncode = path.join("/home/pi/rpi_ws281x/python/scenario.txt");
-
+const pythoncode = path.join("Derek\Documents\Derek\Krippe\cradle\python\scenario.txt");
+console.log(pythoncode);
 let wechsel = false;
 let day = true;
 const app = express();
@@ -60,4 +60,5 @@ app.use((err, req, res, next) => {
 
 const server = app.listen(3000, function(){
   console.log('server is running at %s', server.address().port);
+  console.log( server.address())
 });
